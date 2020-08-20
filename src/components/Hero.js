@@ -5,14 +5,15 @@ const Hero = (props) => {
         <Jumbotron className="hero">
           <Row>
           <Col md={6}>
-            <h1>hey everybody, I'm Elliott Lockwood</h1>
+            <h1>Hello! Elliott Lockwood here</h1>
             <p>
-              This is a simple hero unit, a simple jumbotron-style component for calling
-              extra attention to featured content or information.
+            After being born and raised in Houston, Texas, I went on to graduate from the University of
+							Kansas in 2012. I spent the next 7 years working offshore and traveling the world. Now I am a student at the UT Austin Coding
+							Bootcamp preperaing for a career in tech!
             </p>
           </Col>
           <Col md={6}>
-            <Image fluid src="https://cdn.vox-cdn.com/thumbor/DK_hPYgY_URto0p9hZPGt_tK9ME=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/11471419/Marino_Start.jpg" />
+            <Image fluid src="https://pbs.twimg.com/profile_images/900107838562762752/DRkrjFed_400x400.jpg" />
           </Col>
         </Row>
       </Jumbotron>
