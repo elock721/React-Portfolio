@@ -8,7 +8,7 @@ const Nav = (props) => {
         <Nav1 className="mr-auto">
           <Nav1.Link ><Link to="/" className="nav-item">Home</Link></Nav1.Link>
           <Nav1.Link ><Link to="/projects">Projects</Link></Nav1.Link>
-          <Nav1.Link ><Link to="/">Contact</Link></Nav1.Link>
+          <Nav1.Link ><Link to="/contact">Contact</Link></Nav1.Link>
         </Nav1>
       </Navbar>
     )
